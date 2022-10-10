@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: linear-gradient(to right,
+            #000 0%,
+            #000 51%,
+            #57B8FF 51%,
+            #57B8FF 100%)
+}
+
+.header {
+    background-size: cover;
+}
+
+.header-item {
+    margin-right: 55px;
+    text-align: none;
+}
+
+#link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#link:hover {
+    color:
+        #FAC422;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.header-list {
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.header-logo {
+    position: absolute;
+}
+
+.knopka a {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+
+.korzinA {
+    padding: 6px 6px;
+    font-size: 11px;
+    border-radius: 9px;
+    line-height: 8px;
+    position: absolute;
+    top: 25px;
+    right: 275px;
+}
+
+.korzina {
+    display: flex;
+    justify-content: center;
+    color: #141820;
+    position: absolute;
+    top: -3px;
+    right: -16px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    width: 21px;
+    height: 18px;
+    radius: 9px;
+}
+
+.header-link {
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+}
