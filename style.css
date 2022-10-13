@@ -6,7 +6,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     background-image: linear-gradient(to right,
             #000 0%,
-            #000 51%,
+            #000 58%,
             #57B8FF 51%,
             #57B8FF 100%)
 }
@@ -40,6 +40,9 @@ body {
 
 .header-logo {
     position: absolute;
+    height: 48px;
+    left: 60px;
+    right: 87.12%;
 }
 
 .knopka a {
@@ -79,7 +82,6 @@ body {
     border-radius: 9px;
     width: 21px;
     height: 18px;
-    radius: 9px;
 }
 
 .header-link {
@@ -87,4 +89,73 @@ body {
     line-height: 25px;
     color: white;
     text-decoration: none;
+}
+
+.flame {
+    position: absolute;
+    height: -291px;
+    left: 60px;
+    top: calc(50% - 32px/2);
+}
+
+#future-es {
+    color: #57B8FF;
+}
+
+.es-flame {
+    width: 660px;
+    height: 32px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 291px;
+}
+
+#twitch {
+    color: #80858F;
+    position: absolute;
+    width: 113px;
+    height: 25px;
+    left: calc(50% - 113px/2 - 643.5px);
+    top: calc(50% - 25px/2 - 90px);
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+#inst {
+    color: #80858F;
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: calc(50% - 105px/2 - 647.5px);
+    top: calc(50% - 25px/2 + 37px);
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+#facebook {
+    color: #80858F;
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: calc(50% - 81px/2 - 659.5px);
+    top: calc(50% - 25px/2 + 167px);
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.t-i-f{
+    display: flex;
 }
