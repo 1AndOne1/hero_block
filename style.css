@@ -16,7 +16,7 @@ body {
 }
 
 .header-item {
-    margin-right: 55px;
+    margin-right: 150px;
     text-align: none;
 }
 
@@ -43,6 +43,7 @@ body {
     height: 48px;
     left: 60px;
     right: 87.12%;
+    top: 27px;
 }
 
 .knopka a {
@@ -160,9 +161,72 @@ body {
 }
 
 .t-i-f {
-font-size: 11px;
+    font-size: 11px;
 }
 
 .text {
-    color:#FFFFFF;
+    color: #FFFFFF;
+}
+
+.unleash {
+    position: absolute;
+    height: 258px;
+    left: 0%;
+    right: 0.61%;
+    top: -2px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 258px;
+    width: 656px;
+    left: 20px;
+    top: 250px;
+    border-radius: nullpx;
+}
+
+.unleash-lin {
+    position: absolute;
+    height: 16px;
+    left: 284px;
+    right: 1.06%;
+    top: 490px;
+    border-radius: 0px;
+}
+
+.lorem {
+    color: #999999;
+    position: absolute;
+    height: 56px;
+    left: 64px;
+    right: 6.82%;
+    top: 654px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 615px;
+}
+
+.exp {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.our-team {
+    right: 250px;
+    color: #FFFFFF;
+}
+
+.buttons {
+    position: absolute;
+    height: 70px;
+    left: 0%;
+    right: 69.24%;
 }
