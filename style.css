@@ -116,7 +116,6 @@ body {
     position: absolute;
     width: 113px;
     height: 25px;
-    left: calc(50% - 113px/2 - 643.5px);
     top: calc(50% - 25px/2 - 90px);
     font-family: 'Orbitron';
     font-style: normal;
@@ -124,14 +123,15 @@ body {
     font-size: 11px;
     line-height: 25px;
     text-decoration: none;
+    transform: rotate(-90deg);
+    left: -20px;
 }
 
 #inst {
     color: #80858F;
     position: absolute;
-    width: 105px;
+    width: 113px;
     height: 25px;
-    left: calc(50% - 105px/2 - 647.5px);
     top: calc(50% - 25px/2 + 37px);
     font-family: 'Orbitron';
     font-style: normal;
@@ -139,14 +139,15 @@ body {
     font-size: 11px;
     line-height: 25px;
     text-decoration: none;
+    transform: rotate(-90deg);
+    left: -20px;
 }
 
 #facebook {
     color: #80858F;
     position: absolute;
-    width: 81px;
+    width: 113px;
     height: 25px;
-    left: calc(50% - 81px/2 - 659.5px);
     top: calc(50% - 25px/2 + 167px);
     font-family: 'Orbitron';
     font-style: normal;
@@ -154,8 +155,14 @@ body {
     font-size: 11px;
     line-height: 25px;
     text-decoration: none;
+    transform: rotate(-90deg);
+    left: -20px;
 }
 
-.t-i-f{
-    display: flex;
+.t-i-f {
+font-size: 11px;
+}
+
+.text {
+    color:#FFFFFF;
 }
