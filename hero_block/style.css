@@ -1,0 +1,252 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: linear-gradient(to right,
+            #000 0%,
+            #000 58%,
+            #57B8FF 51%,
+            #57B8FF 100%)
+}
+
+.header {
+    background-size: cover;
+}
+
+.header-item {
+    margin-right: 150px;
+    text-align: none;
+    text-decoration: none;
+}
+
+#link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#link:hover {
+    color:
+        #FAC422;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.header-list {
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.header-logo {
+    position: absolute;
+    height: 48px;
+    left: 60px;
+    right: 87.12%;
+    top: 27px;
+}
+
+.knopka a {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+
+.korzinA {
+    padding: 6px 6px;
+    font-size: 11px;
+    border-radius: 9px;
+    line-height: 8px;
+    position: absolute;
+    top: 25px;
+    right: 275px;
+}
+
+.korzina {
+    display: flex;
+    justify-content: center;
+    color: #141820;
+    position: absolute;
+    top: -3px;
+    right: -16px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    width: 21px;
+    height: 18px;
+}
+
+.header-link {
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.flame {
+    position: absolute;
+    height: -291px;
+    left: 60px;
+    top: calc(50% - 32px/2);
+}
+
+#future-es {
+    color: #57B8FF;
+}
+
+.es-flame {
+    width: 660px;
+    height: 32px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 291px;
+}
+
+#twitch {
+    color: #80858F;
+    position: absolute;
+    width: 113px;
+    height: 25px;
+    top: calc(50% - 25px/2 - 90px);
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    left: -20px;
+}
+
+#inst {
+    color: #80858F;
+    position: absolute;
+    width: 113px;
+    height: 25px;
+    top: calc(50% - 25px/2 + 37px);
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    left: -20px;
+}
+
+#facebook {
+    color: #80858F;
+    position: absolute;
+    width: 113px;
+    height: 25px;
+    top: calc(50% - 25px/2 + 167px);
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    left: -20px;
+}
+
+.t-i-f {
+    font-size: 11px;
+}
+
+.text {
+    color: #FFFFFF;
+}
+
+.unleash {
+    position: absolute;
+    height: 258px;
+    left: 0%;
+    right: 0.61%;
+    top: -2px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 258px;
+    width: 656px;
+    left: 20px;
+    top: 250px;
+    border-radius: nullpx;
+}
+
+.unleash-lin {
+    position: absolute;
+    height: 16px;
+    left: 284px;
+    right: 1.06%;
+    top: 490px;
+    border-radius: 0px;
+}
+
+.lorem {
+    color: #999999;
+    position: absolute;
+    height: 56px;
+    left: 64px;
+    right: 6.82%;
+    top: 654px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 615px;
+}
+
+.exp {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #57B8FF;
+    border-radius: 10px;
+}
+
+.our-team {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.picture {
+    position: absolute;
+    left: 960px;
+    top: -430px;
+}
+
+.flow {
+    position: absolute;
+    right: -1170px;
+    top: 30px;
+    background-color: #FFFFFF;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+
+#webfl {
+    color: black;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    top: 35px;
+}
