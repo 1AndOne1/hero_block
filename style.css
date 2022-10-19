@@ -201,7 +201,7 @@ body {
     color: #999999;
     position: absolute;
     height: 56px;
-    left: 64px;
+    left: 87px;
     right: 6.82%;
     top: 654px;
     font-family: 'Orbitron';
@@ -217,13 +217,22 @@ body {
 .exp {
     color: #FFFFFF;
     text-decoration: none;
+    margin-left: -90px;
     background-color: #57B8FF;
-    border-radius: 10px;
+    border-radius: 0px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .our-team {
     color: #FFFFFF;
     text-decoration: none;
+    padding-right: 800px;
+    padding-top: 15px;
+    padding-left: -120px;
+    margin-left: 0px;
 }
 
 .picture {
@@ -249,6 +258,7 @@ body {
 }
 .buttons {
     display: flex;
-    justify-content: left;
-    top: 600px;
+    padding: 690px;
+    justify-content: space-around;
+    padding-left: 150px;
 }
